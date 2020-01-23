@@ -1,0 +1,67 @@
+body {
+  padding-left: 50 px;
+  color: black;
+
+}
+
+h1 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h2 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  padding-left: 500 px;
+}
+
+#title {
+  padding:50px;
+  margin-top:20px;
+}
+
+p {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid #ff6666;
+  padding: 50px;
+  margin: 20px;
+}
+
+ol {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid #ff6666;
+  padding: 50px;
+  margin: 20px;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+/* Change link color to #111 on hover*/
+li a:hover {
+  background-color: #111;
+}
+
+/*Class to let user know wchi page they are on*/
+.active {
+  background-color: #ffcccc;
+  color: black;
+}
