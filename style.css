@@ -1,3 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
+}
+
+
 body {
   padding-left: 50 px;
   color: black;
@@ -12,6 +40,37 @@ h2 {
   font-family: "Helvetica", "Arial", sans-serif;
   padding-left: 500 px;
 }
+
+.menu-container {
+  color: #fff;
+  background-color: #ff6666;  /* Blue */
+  padding: 20px 0;
+  display: flex;
+  justify-content:center;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainmenu {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  /*border: 1px solid #fff;  /* For debugging */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
 
 #title {
   padding:50px;
